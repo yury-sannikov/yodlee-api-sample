@@ -1,0 +1,21 @@
+{
+  "name": "yodlee-api-sample",
+  "version": "1.0.0",
+  "description": "Yodlee sample console app for API calls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "coffee-script": "^1.9.1",
+    "colors": "^1.0.3",
+    "commander": "^2.6.0",
+    "q": "^1.2.0",
+    "q-io": "^1.11.6",
+    "querystring": "^0.2.0",
+    "qx": "^1.0.0",
+    "string_decoder": "^0.10.31"
+  }
+}
