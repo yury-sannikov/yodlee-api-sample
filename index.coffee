@@ -7,6 +7,7 @@ Q = require('q');
 workflow.on 'cbLogin', require('./workflow/cobrand_login.coffee').cbLogin
 workflow.on 'cbUserLogin', require('./workflow/cobrand_userlogin.coffee').cbUserLogin
 workflow.on 'search', require('./workflow/action_search.coffee').search
+workflow.on 'summary', require('./workflow/action_summary.coffee').summary
 
 program
   .version '0.0.1' 
@@ -36,6 +37,7 @@ context =
     coLogin: '/authenticate/coblogin'
     uLogin: '/authenticate/login'
     search: '/jsonsdk/SiteTraversal/searchSite'
+    summary: '/jsonsdk/DataService/getItemSummaries'
   cbLogin: program.cobranduser
   cbPassword: program.cobrandpwd
   uLogin: program.user

@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+./index.js --cobranduser sbCobyury1sannikov --cobrandpwd 810baf6c-97a3-4dfd-bca7-71e7089cdb01 --user sbMemyury1sannikov5 --pwd sbMemyury1sannikov5#123 --action search --data $1
